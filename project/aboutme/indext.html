@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf=8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <style>
            body{margin: 5%;background: rgba(255, 240, 225, 0.902);text-decoration:none;}
            nav{background: hsla(30, 77%, 81%);;}
@@ -16,13 +18,13 @@
             nav a:hover {background-color: hsla(30, 93%, 62%);color: white;}
             aside{float: right;width: 20%;height: 750px;margin: 1%;background-color: rgba(249, 213, 174, 0.884);}
             aside a {display: block;color: black;text-decoration: none;}
-            header{ margin: 1cm; font-family: 標楷體,微軟正黑體;}
-            h1{font-family: 標楷體,微軟正黑體; }
+            header{ margin: 1cm; font-family: 微軟正黑體;}
+            h1{font-family: 微軟正黑體; }
             p{;margin: 0.5cm 0.5cm;}
             section{margin: 1cm;}
             section a {display: block;color: black;text-decoration: none;}
             main{margin: 1cm;}
-            * {font-family: 標楷體,微軟正黑體;}
+            * {font-family: 微軟正黑體;}
 
         </style>
         <title>私藏粉專大推薦</title>
@@ -39,11 +41,33 @@
             <ul class="flex-nav" style="color: white;">
                 <li><a href="https://shiru8215.github.io/project/index.html">首頁</a></li>
                 <li><a href="https://shiru8215.github.io/project/theme/index.html">類別</a></li>
-                <li><a href="https://shiru8215.github.io/project/theme/index.html">關於我</a></li>
+                <li><a href="https://shiru8215.github.io/project/aboutme/indext.html">關於我</a></li>
             </ul>
         </nav>
        
-        
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://shiru8215.github.io/project/ig/woobi.html"><img src="wo.jpg" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://shiru8215.github.io/project/ig/excel.html"><img src="ex.jpg" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-item">
+                <a href="https://shiru8215.github.io/project/ig/outsiderinchiayi.html"><img src="ch.jpg" class="d-block w-100" alt="..."></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
         
         
         <aside>
@@ -63,14 +87,51 @@
 
         <main>
         
-            <h2 id="introduction">關於我是誰</h2>
-            <p> 喜歡看很多粉絲專頁的人，希望能和大家分享自己喜歡的東西，<br>
-                想把這些美好都分享給大家！
+            <h2 id="introduction">簡介</h2>
+            <p> 這個網頁整理了一些自己喜歡的粉專，主要以ig粉專為主，以fb粉專為輔。<br>
+                並且會附上粉專精選內容附上粉專精選內容以及推薦原因。<br>
+                希望大家喜歡
             </p> 
 
         </main>
         
 
+        
+
+         
+        <section>
+            <h2 id="top5">推薦top5</h2>
+            <ul>
+        
+            <li><a href="https://shiru8215.github.io/project/ig/magicalshark.html">神奇鯊魚-短漫翻譯站</a></1i>
+            <li><a href="https://shiru8215.github.io/project/ig/excel.html">Excel百科</a></1i>
+            <li><a href="https://shiru8215.github.io/project/ig/example.html">火龍果龜</a></1i>
+            <li><a href="https://shiru8215.github.io/project/ig/outsiderinchiayi.html">嘉義異鄉人 Outsider In Chiayi</a></li>
+            <li><a href="https://shiru8215.github.io/project/ig/woobi.html">嗚比的朋友</a></li>
+        
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="theme">分類</h2>
+            <ul>
+            <li id="picture"><a href="https://shiru8215.github.io/project/theme/index.html#pictrue">圖文</a></1i>
+            <li id="compentence"><a href="https://shiru8215.github.io/project/theme/index.html#compentence">技能</a></1i>
+            <li id="life"><a href="https://shiru8215.github.io/project/theme/index.html#life">美食/生活</a></1i>
+            <li id="translate"><a href="https://shiru8215.github.io/project/theme/index.html#translate">翻譯</a></li>
+            </ul>        
+        </section>    
+        
+
+
+        <section>
+            <h2 id="else">其他</h2>
+
+            <p> 希望未來有機會可以繼續把這個網頁弄得更好，內容可以更加完整。<br>
+                也歡迎大家有甚麼其他感想或是想推薦的粉專都可以聯絡我。<br>
+                E-mail:shiru821515@gmail.com
+            </p>
+        </section>
     
         
         <footer>
